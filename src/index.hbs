@@ -1,0 +1,77 @@
+{{> head title='Blocklime - We make Blockchain easy '}}
+  <body>
+  	 {{> header}}
+    <main>
+      {{> parallax}}
+      <slider id="lime-main-wrap">
+        <div class="container-fluid">
+          <div class="row">
+            {{>section-1/block-left}}
+            {{>section-1/block-right}}
+          </div>
+        </div>
+      </slider> 
+
+      <div id="about"> 
+        <div class="container">
+             {{>section-2/whatcanlimedo}}
+               <hr class="lime-divider">
+        </div>
+      </div>
+        
+        <div class="container-fluid lime-shadow-wrapper lime-space-t-p-40 lime-space-b-p-40 lime-space-mob-b-p-40">
+            {{>section-3/whatislime}}
+        </div>
+        <div class="container">
+          <div class="lime-space-t-p-40">
+            {{>section-4/our-expertise}}
+            <hr id="acadamy" class="lime-divider">
+          </div>  
+        </div>
+
+        <div  class="container-fluid lime-shadow-wrapper lime-space-t-p-40 lime-space-b-p-40 lime-space-mob-b-p-40">
+          <div class="container">
+            {{>section-5/acadamy}}
+          </div>
+        </div>
+
+        <div class="container">
+          {{>section-6/blockchain-usecase}}
+        </div>
+
+        <div class="container-fluid lime-shadow-wrapper lime-space-t-p-40 lime-space-b-p-40 lime-space-mob-b-p-40">
+          <div class="container">
+            <hr id="career"  class="lime-divider">
+            {{>section-7/say-about}}
+          </div>
+        </div>
+
+        <div id="contact"  class="container">
+          <hr class="lime-divider">
+          {{>section-8/contact}}
+        </div>
+
+    </main>
+   
+    <script src="js/bundle.js"></script>
+    <script>
+    // AOS.init();
+    
+// parallax-scroller
+jQuery(document).ready(function(){
+  $(window).scroll(function(e){
+    parallaxScroll();
+  });
+   
+  function parallaxScroll(){
+    var scrolled = $(window).scrollTop();
+    $('#parallax-bg-1').css('top',(0-(scrolled*.25))+'px');
+    $('#parallax-bg-2').css('top',(0-(scrolled*.4))+'px');
+    $('#parallax-bg-3').css('top',(0-(scrolled*.75))+'px');
+  }
+ 
+ }); 
+    </script>
+      {{> footer}}
+  </body>
+</html>

@@ -1,0 +1,125 @@
+/* foreground (balloons/landscape)*/
+div#parallax-bg-1{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: -1;
+}
+/* background middle layer*/
+div#parallax-bg-2{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: 2;
+}
+/* background layer */
+div#parallax-bg-3{
+	position: fixed;
+	width: 960px;
+	top: 0;
+	left: 50%; 
+	margin-left: -470px; 
+	z-index: 1;
+}
+/* foreground */
+div#parallax-bg-3 div{
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	overflow:hidden;
+}
+div#bg-3-1{
+	background:url('../images/parallax-img/lf-3.png');
+	width:179px;
+	height:117px;
+	top:180px;
+	right:100px;
+}
+div#bg-3-2{
+	background:url('../images/parallax-img/lf-4.png');
+	width:141px;
+	height:108px;
+	top:1050px;
+	right:70px;
+}
+div#bg-3-3{
+	background:url('../images/parallax-img/lf-2.png');
+	width:229px;
+	height:210px;
+	top:1800px;
+	right:140px;
+}
+
+/* middle layer clouds */
+div#parallax-bg-2 div{
+	background:url('../images/parallax-img/lf-1.png');
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	width:149px;
+	height:113px;
+	overflow:hidden;
+}
+
+div#bg-2-1{
+	top:100px;
+	left:-310px;
+}
+div#bg-2-2{
+	top:270px;
+	right:-70px;
+}
+div#bg-2-3{
+	top:870px;
+	left:-300px;
+}
+div#bg-2-4{
+	top:1120px;
+	right:-130px;
+}
+div#bg-2-5{
+	top:1620px;
+	left:140px;
+}
+div#bg-2-6{
+	top:720px;
+	left:340px;
+}
+
+/*background layer clouds */
+div#parallax-bg-1 div{
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	width:258px;
+	height:197px;
+	overflow:hidden;
+}
+div#bg-1-1{
+	background:url('../images/parallax-img/lf-3.png');
+	top:200px;
+	right:290px;
+}
+div#bg-1-2{
+	background:url('../images/parallax-img/lf-5.png');
+	top:420px;
+	left:0px;
+}
+
+
+.lime{
+	&-paralax-index{
+		position: relative;
+		z-index: 2;
+	}
+}
+
+@media screen and (max-width: $screen-md-max) {
+	.parallax-bg{
+		display: none;
+	}
+}

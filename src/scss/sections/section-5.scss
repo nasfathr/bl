@@ -1,0 +1,17 @@
+.lime{
+	&-acadamy-logo{
+		@media screen and (max-width: $screen-md-max) {
+			width: 80px;
+			margin: 20px 0;
+		}
+	}
+
+	&-slogan{
+		font-size: 28px;
+		font-family: $montserrat-bold;
+		line-height: 1.3;
+		@media screen and (max-width: $screen-md-max) {
+				font-size: 22px;
+		}
+	}
+}

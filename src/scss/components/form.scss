@@ -1,0 +1,14 @@
+.lime{
+	&-slider-right{
+		.form-group{
+			.form-control:focus {
+			    border-color: $lime-secondary-color;
+			    outline: 0;
+			    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(174, 231, 78);
+			}
+		}
+	}
+}
+
+
+

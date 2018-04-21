@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="85px" viewBox="0 0 94 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>zest-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-55.0%" y="-28.6%" width="210.0%" height="157.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="6.96540179" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-302.000000, -3389.000000)">
+        <path d="M333.031883,3414.50512 C339.916734,3439.23876 363.958174,3466.46163 368.267575,3467.96762 C372.576976,3469.4736 356.860336,3418.01909 347.481052,3404.46522 C338.21782,3391.07905 326.147033,3389.77149 333.031883,3414.50512 Z" id="zest-2" fill="#C8EF37" filter="url(#filter-1)" transform="translate(350.000000, 3431.500000) rotate(-104.000000) translate(-350.000000, -3431.500000) "></path>
+    </g>
+</svg>

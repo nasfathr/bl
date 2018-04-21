@@ -1,0 +1,108 @@
+//block-chain
+
+//~container-width
+$screen-xxs-max: 320px;
+$screen-xxs-min: ($screen-xxs-max + 1);
+$screen-xs-max: 480px;
+$screen-sm-min: ($screen-xs-max + 1);
+$screen-sm-max: 768px;
+$screen-md-min: ($screen-sm-max + 1);
+$screen-md-max: 1023px;
+$screen-lg-min: ($screen-md-max + 1);
+$screen-lg-max: 1280px;
+$screen-xl-max: 1601px;
+
+/* HYPERLINKS */
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+
+#{$a-tags} {
+    text-decoration: none;
+    color: inherit;
+}
+
+// Form tags
+$form-tags: 'input, select, textarea';
+$form-tags-focus: 'input:focus, select:focus, textarea:focus';
+
+/*spacer*/
+$lime-spacer-5: 5px;
+$lime-spacer-10: 10px;
+$lime-spacer-20: 20px;
+$lime-spacer-30: 30px;
+$lime-spacer-40: 40px;
+$lime-spacer-50: 50px;
+$lime-spacer-60: 60px;
+$lime-spacer-70: 70px;
+$lime-spacer-80: 80px;
+$lime-spacer-90: 90px;
+$lime-spacer-100: 100px;
+
+/*fonts-sizes*/
+$font-size-base: 16px;
+$font-size-small: ceil(($font-size-base * 0.93333));// ~14px
+$font-size-medium: ceil(($font-size-base * 1.6));// ~24px
+$font-size-large: ceil(($font-size-base * 2.33333));// ~35px
+$font-size-menu-head: ceil(($font-size-base * 3.2));// ~48px
+
+/*colors*/
+$lime-primary-color: #374D61; //blue
+$lime-secondary-color: #A4CF25; //light-blue
+$lime-danger: #FF0000;
+$lime-blue-10: #00BBDE;
+$lime-blue-20: #00E6DB;
+$lime-blue-30: #077bb5;
+$lime-blue-40: #00CADD; //lighter blue
+$lime-blue-60: #3060C0;
+$lime-violet-dark: #181d45;
+$lime-gray-10: #D8D8D8; 
+$lime-gray-20: #979797;
+
+$lime-color-00: #1E4693; //violet-blue
+$lime-color-10: #1e1a3e; //vilot-blue-minus
+$lime-color-20: #0A2A4B; // vilot-blue-lightned
+$lime-color-30: #39C56A; //light-green
+$lime-color-40: #17BFDE; //green
+$lime-color-50: #191E45 ; // vilot-dark
+$lime-gray-20: #cecece;
+
+$lime-color-gray-00: #dddddd; // light-gray
+$lime-color-gray-10: #9b9b9b; // light-gray for small section titles
+$lime-color-gray-20: #d8d8d8; // border for module seperators
+$lime-color-gray-30: #aaaaaa; // used for client logo svg's
+$lime-color-gray-40: #353d43; // top stoires background
+$lime-color-gray-50: #EEEEEE; //bg-background
+$lime-color-gray-60: #202121; //dark-gray-nav-bg
+
+$lime-violet-light:#C4CFEC;
+
+$lime-white: #ffffff; //white
+$lime-black: #000;
+
+// headlines
+$lime-h1: floor(($font-size-base * 3.2));// ~48px
+$lime-h2: 20px;// ~20px
+$lime-h3: 36px;
+$lime-h4: floor(($font-size-base * 1.625));// ~26px
+$lime-h5: floor(($font-size-base * 1.2));// ~18px
+$lime-h6: floor(($font-size-base * 1.33333));// ~20px
+$lime-h7: $font-size-medium;
+$lime-h7-sm:$font-size-base;
+
+$line-height-base: 1.6;
+
+$default-top-spacer: $lime-spacer-100 * 2 + 50;
+$partners-section-seperator: 38px;
+
+
+/*font-family*/
+$lato-regular: Lato-r;
+$lato-light: Lato-l;
+$lato-bold: Lato-b;
+$lato-black: Lato-black;
+
+$montserrat-regular: montserrat-r;
+$montserrat-medium: montserrat-m;
+$montserrat-light: montserrat-l;
+$montserrat-exlight: montserrat-el;
+$montserrat-bold: monsterrat-b;

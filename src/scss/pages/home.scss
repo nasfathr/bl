@@ -1,0 +1,79 @@
+.lime{
+	&-slider{
+
+		&-left{
+			@include two-gradient-l-r(#B4EC51, #559321);
+			max-height: 420px;
+			min-height: 420px;
+			padding: 0 150px;
+			@media screen and (max-width: $screen-xs-max) {
+				min-height: 250px;
+			}
+			
+			@media screen and (max-width: $screen-xl-max) {
+      			padding: 0;
+    		}
+
+		}
+		&-right{
+			@include two-gradient-l-r(#374D61, #263848);
+			color: $lime-white;
+			padding: 150px;
+			max-height: 420px;
+			min-height: 420px;
+			@media screen and (max-width: $screen-lg-max) {
+      			padding: 90px 50px 0;
+    		}
+    		@media screen and (max-width: $screen-xs-max) {
+				padding: 0 30px; 
+				min-height: 300px;
+			}
+
+		}
+		&-text{
+			color: $lime-white;
+			&-left{
+				font-size: 36px;
+				padding: 150px 30px;
+				font-family: $montserrat-bold;
+				@media screen and (max-width: $screen-xl-max) {
+      				padding: 150px 30px;
+    			}
+
+    			@media screen and (max-width: $screen-lg-max) {
+      				padding: 100px 30px;
+    			}
+
+    			@media screen and (max-width: $screen-md-max) {
+      				padding: 180px 110px;
+
+    			}
+
+    			@media screen and (max-width: $screen-sm-max) {
+      				font-size: 22px;
+    			}
+
+    			@media screen and (max-width: $screen-xs-max) {
+      				padding: 100px 30px;
+    			}
+
+			}
+			&-right{
+				font-size: 20px;
+				display: inline;
+				background: rgba(255, 255, 255, 0.09);
+			}
+		}
+	}
+	&-divider{
+		background: $lime-secondary-color;
+		border-width:0;
+		width: 60px;
+    	height: 8px;
+    	margin: 20px auto 40px auto;
+    	@media screen and (max-width: $screen-md-max) {
+      		margin: 10px auto 20px auto;
+    	}
+
+	}
+}

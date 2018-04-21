@@ -1,0 +1,91 @@
+header {
+	@include bl-shadow (-1px, 3px, 8px, -1px, 0.22);
+	position:fixed;
+	z-index: 99;
+	width: 100%;
+	background: $lime-white;
+	transition: all .5s;
+	.logo{
+		display: block;
+		text-indent: -9999px;
+		width: 190px;
+		height: 85px;
+		background: url("../images/bl-icon.svg") no-repeat;
+		background-size: 190px 85px;
+		transition: all .5s;
+	}
+	&.top{
+		background: $lime-primary-color;
+		.logo{
+			width: 170px;
+			height: 50px;
+			background: url("../images/bl-icon-block-white.svg") no-repeat;
+						background-size: 150px 51px;
+			@media screen and (max-width: $screen-md-max) {
+				position: absolute;
+        		margin: 0;
+        		top:2px;
+        		left:5px;
+			}
+		}
+		.burger {
+			top: 55%;
+		}
+		.burger-menu {
+		  @media screen and (max-width: $screen-md-max) {
+		    height: 40px;
+		  }
+		}
+		nav.lime-menu{
+			ul{
+				margin: -5px 0 0;
+				 @media screen and (max-width: $screen-md-max) {
+		    		margin: 5px 0 0;
+		  		}
+			}
+		}
+		hr.test {
+			background: red;
+		}
+
+	}
+}
+
+.header{
+	hr.lime-border-nav{
+		border:0;
+	}
+
+	&.lime-border-active{
+			hr.lime-border-nav {
+			    position: absolute;
+			    width: 100%;
+			    left: 0px;
+			    margin: 0;
+			    bottom: 0px;
+			    border-top: 4px solid $lime-secondary-color;
+			}
+	}
+
+	&.top{
+		&.lime-border-active{
+			hr.lime-border-nav {
+			    position: absolute;
+			    width: 100%;
+			    left: 0px;
+			    margin: 0;
+			    bottom: 0px;
+			    border-top: 4px solid white;
+			}
+		}
+	}
+}
+
+.lime{
+	&-menu{
+					@media screen and (min-width: $screen-lg-min) {
+		    		text-align: right;
+		  		}
+	}
+}
+

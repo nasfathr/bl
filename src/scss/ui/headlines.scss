@@ -1,0 +1,55 @@
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
+.lime{
+	&-h1{
+	 @include headline($lime-h1, $montserrat-exlight, $lime-white, $lime-spacer-20 + 2);
+
+		@media screen and (max-width: $screen-md-max) {
+		 	font-size:$lime-h1 - 21;
+		 	 margin-top: $lime-spacer-100;
+		 }	
+
+		 &.light{
+				color: $lime-color-40;
+		 }
+	 
+	}
+	&-h3{
+		@include headline($lime-h3, $montserrat-bold, inherit, $lime-spacer-10);
+		@media screen and (max-width: $screen-md-max) {
+			font-size: $lime-h3 / 2 + 5;
+		}
+	}
+	
+	&-h4{
+		&:before {
+			margin-right: $lime-spacer-10;
+			margin-top: 7px;
+			@include bc-icon-font('\f068', inherit, 0);
+			@include font-two-gradient-l-r ($lime-secondary-color,$lime-secondary-color);
+			font-size : $font-size-medium;
+			position: relative;
+			float: left;
+			height: 180px;
+				@media screen and (max-width: $screen-lg-max - 80) {
+					height: 20px;
+				}
+
+			}
+
+			& span {
+				font-family: $montserrat-bold;
+				text-transform: uppercase;
+				font-size: $lime-h4;
+				line-height: $lime-spacer-20 + 5;		
+				@media screen and (max-width: $screen-md-max) {
+					font-size: $lime-h4 / 2 + 5;
+				}	
+			}
+	}
+}
+
+

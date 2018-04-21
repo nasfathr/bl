@@ -1,0 +1,14 @@
+.lime{
+	&-partners{
+		ul li{
+			padding-left: 20px;
+			@media screen and (max-width: $screen-xs-max) {
+      			padding-left: 20px;
+		    	min-height: 70px;
+		    	display: block;
+		    	padding-bottom: 10px;
+    		}
+
+		}
+	}
+}

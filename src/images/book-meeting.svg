@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="86px" viewBox="0 0 84 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>book-meeting-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="37" cy="37" r="37"></circle>
+        <filter x="-14.9%" y="-8.1%" width="129.7%" height="132.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1193.000000, -431.000000)">
+        <g id="Group-18" transform="translate(1081.000000, 431.000000)">
+            <g id="book-meeting-icon" transform="translate(117.000000, 0.000000)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#A4CF25" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="calendar---FontAwesome" font-family="FontAwesome" font-size="42" font-weight="normal" fill="#F9F9F9">
+                    <tspan x="18" y="52"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

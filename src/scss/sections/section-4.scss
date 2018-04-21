@@ -1,0 +1,16 @@
+.lime{
+	&-expert-block{
+		display: inline-block;
+		@media screen and (max-width: $screen-xs-max) {
+      		display: block;
+    	}
+	}
+	&-content-text{
+		&.lime-width-adjustment{
+		width: 70%;
+		@media screen and (max-width: $screen-xs-max) {
+      		width: 100%;
+    	}
+		}
+	}
+}
