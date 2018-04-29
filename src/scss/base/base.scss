@@ -79,6 +79,9 @@ p {
   &-secondary-color{
     color: $lime-secondary-color;
   }
+  &-bg-primary-color{
+    background: $lime-primary-color;
+  }
 
   &-hr-line{
     @media screen and (min-width: $screen-md-min) {

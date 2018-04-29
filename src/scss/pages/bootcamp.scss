@@ -1,0 +1,57 @@
+.lime{
+	&-academy-bootcamp{
+		color: $lime-white;
+		p{
+			color: $lime-white;
+		}
+		&-img-wrapper{
+			text-align: center;
+			margin-top: 60px;
+			@media screen and (max-width: $screen-sm-max) {
+				margin-top: 100px;
+			}
+			img{
+				width: 70%;
+				@media screen and (max-width: $screen-sm-max) {
+					width: 100%;
+				}
+			}
+		}
+	
+	}
+	&-content-text-camp{
+		width: 60%;
+	    margin: 0 auto;
+	    padding-bottom: 15px;
+	    @media screen and (max-width: $screen-sm-max) {
+			width: 100%;
+			margin-top: 25px;
+		}
+		.lm-btn-width{
+			max-width: 150px;
+			margin-top: 25px;
+			margin: 0 auto;
+		}
+	}
+	&-exception-heading{
+		font-size: 60px;
+		font-family: $lato-bold;
+		@media screen and (max-width: $screen-sm-max) {
+			font-size: 30px;
+			padding-left: 10px;
+		}
+	}
+	&-pre-wrap{
+		white-space: pre-wrap;
+	}
+	&-academy-slogan{
+		font-size: 26px;
+		font-family: $montserrat-bold;
+		padding-left: 15px;
+		display: block;
+		overflow: hidden;
+	}
+	&-bg-gray{
+		background: #EFEFEF;
+	}
+}

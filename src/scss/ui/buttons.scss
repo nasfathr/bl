@@ -19,6 +19,13 @@
 			color: $lime-white;
 		}
 	}
+	&-white{
+		@include bc-button($lime-spacer-5 $lime-spacer-40, $lime-white, $font-size-small, transparent, 50px);
+		border: 1px solid $lime-white;
+			&:hover, &:active{
+				@include two-gradient-l-r(#B4EC51, #559321);
+		}
+	}
 	
 	&:hover, &:active{
 		@include two-gradient-l-r(#B4EC51, #559321);
@@ -33,7 +40,7 @@
 
 	&-secondory{
 	@include bc-button($lime-spacer-5 $lime-spacer-40, $lime-white, $font-size-small, inherit, 50px);
-	@include two-gradient-l-r($lime-blue-10, $lime-blue-20);
+	@include two-gradient-l-r($lime-secondary-color, $lime-secondary-color);
 	}
 
 	&-shadow{

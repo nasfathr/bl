@@ -1,0 +1,41 @@
+.lime{
+	&-academy{
+		&-default-link{
+				color: $lime-primary-color;
+		}
+		.lime{
+				&-block{
+					&-wrapper{
+					background: $lime-secondary-color;
+					height: 140px;
+					margin-top: 200px;
+					@media screen and (max-width: $screen-sm-max) {
+								margin-top: 250px;
+							}
+					}
+				&-img{
+					position: absolute;
+					width: 100%;
+					top: -200px;
+					img{
+						@media screen and (max-width: $screen-sm-max) {
+							width: 100%;
+						}
+					}
+				}
+			}
+			&-content-text-academy{
+				width: 60%;
+				margin: 0 auto;
+				margin-bottom: 40px;
+				@media screen and (max-width: $screen-sm-max) {
+							width: 100%;
+						}
+			}
+			&-secondary-color{
+				color: $lime-secondary-color;
+				font-family: $lato-bold;
+			}
+		}
+	}
+}
