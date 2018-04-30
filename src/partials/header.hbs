@@ -18,33 +18,33 @@
 			<nav id="main-nav" class="lime-menu">
 	     		<ul id="lime-top-menu" class="inline-list">
 	     			<li class="list-item">
-	     				<a href="#lime-main-wrap"><span data-hover="HOME">Home</span></a>
+	     				<a href="{{#if homepage}}#lime-main-wrap{{else}}index.html{{/if}}"><span data-hover="HOME">Home</span></a>
 	     			</li>
 	     			<li class="list-item">
-	     				<a href="#about"><span data-hover="ABOUT US">About Us</span></a>
+	     				<a href="{{#if homepage}}#about{{else}}index.html#about{{/if}}"><span data-hover="ABOUT US">About Us</span></a>
 	     			</li>
 	     			<li class="list-item">
-	     				<a href="#acadamy"><span data-hover="ACADEMY">Academy</span></a>
+	     				<a href="academy.html"><span data-hover="ACADEMY">Academy</span></a>
 	     			</li>
 	     			<li class="list-item">
-	     				<a href="#contact"><span data-hover="CONTACT US">Contact Us</span></a>
+	     				<a href="{{#if homepage}}#contact{{else}}index.html#contact{{/if}}"><span data-hover="CONTACT US">Contact Us</span></a>
 	     			</li>
 	     			<li class="list-item">
-	     				<a href="#career"><span data-hover="CAREER">Career</span></a>
+	     				<a href="{{#if homepage}}#career{{else}}index.html#career{{/if}}"><span data-hover="CAREER">Career</span></a>
 	     			</li>
 	     			<li class="list-item lime-social">
 	     				<a href="//www.facebook.com/blocklime" target="_blank">
 	     					<i class="fa fa-facebook-official" aria-hidden="true"></i>
 	     				</a>
 
-	     				<a href="//www.linkedin.com/company/blocklime/">
+	     				<a href="//www.linkedin.com/company/blocklime/" target="_blank">
 	     					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
 	     				</a>
 
-	     				<a href="//www.instagram.com/blocklime_tech/">
+	     				<a href="//www.instagram.com/blocklimetech/" target="_blank">
 	     					<i class="fa fa-instagram" aria-hidden="true"></i>
 	     				</a>
-	     				<a href="//t.me/blocklime">
+	     				<a href="//t.me/blocklime" target="_blank">
 	     					<i class="fa fa-telegram" aria-hidden="true"></i>
 	     				</a>
 	     			</li>

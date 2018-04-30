@@ -1,6 +1,6 @@
 {{> head title='Blocklime - We make Blockchain easy '}}
   <body>
-  	 {{> header}}
+  	 {{> header homepage=true}}
     <main>
       {{> parallax}}
       <slider id="lime-main-wrap">
@@ -57,6 +57,7 @@
     <script>
     // AOS.init();
     
+
 // parallax-scroller
 jQuery(document).ready(function(){
   $(window).scroll(function(e){
@@ -69,8 +70,9 @@ jQuery(document).ready(function(){
     $('#parallax-bg-2').css('top',(0-(scrolled*.4))+'px');
     $('#parallax-bg-3').css('top',(0-(scrolled*.75))+'px');
   }
- 
- }); 
+ });
+
+
     </script>
       {{> footer}}
   </body>
